@@ -41,14 +41,14 @@ hacker.start()
 @hacker.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await hacker(JoinChannelRequest("@Source_hacker"))
+        await hacker(JoinChannelRequest("@Source_haker"))
     except BaseException:
         pass
         
 @hacker.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await hacker(JoinChannelRequest("@source_hacker"))
+        await hacker(JoinChannelRequest("@source_haker"))
     except BaseException:
         pass
       
@@ -56,7 +56,7 @@ async def join_channel(event):
 @hacker.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await hacker(JoinChannelRequest("@source_hacker"))
+        await hacker(JoinChannelRequest("@source_haker"))
     except BaseException:
         pass  
         
@@ -81,7 +81,7 @@ logging.basicConfig(
 
 
 DEVS = [
-    6581896306,
+    6467873841,
 ]
 DEL_TIME_OUT = 60
 normzltext = "1234567890"
@@ -93,7 +93,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await hacker(JoinChannelRequest("@ELHYBA"))
+        await hacker(JoinChannelRequest("@j2_7r"))
     except BaseException:
         pass
 
@@ -458,10 +458,11 @@ async def _(event):
     await event.edit(f'''
 ♔ hacker ɪѕ ᴡᴏʀɪɴɢ⛧
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
-❖╎𝚆𝙴𝙻𝙺𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝚉𝙴𐇮
-❖╎𝐝𝐞𝐯 : @ELHYBA
-❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @Source_hacker 
-❖╎𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 2.7 - revised 
+𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝗁𝖺𝖼𝗄𝖾𝗋𐇮
+❖╎𝐝𝐞𝐯 : @J2_7R 𖥔
+❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @Source_HAKER
+❖╎𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 2.7 - revised
+ 
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 ''')
 @hacker.on(events.NewMessage(outgoing=True, pattern=r"\.المطورين"))
@@ -471,12 +472,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-𖣘𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓𝒔 𝒔𝒐𝒖𝒓𝒄𝒆 𝒛𝒆𖣘
+𝕊𝕆𝕌ℝℂ𝔼 𝕙𝕒𝕔𝕜𝕖𝕣
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
-❖╎𝐃𝐄𝐕❶:@ELHYBA
-❖╎𝐃𝐄𝐕❷:@II_7_I
-❖╎𖣘𝐒𝐎𝐔𝐑𝐂𝐄 𝐙𝐄𖣘
-❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @Source_hacker
+❖╎𝐃𝐄𝐕❶:@J2_7R
+❖╎𝐃𝐄𝐕❷:@M_5_VV_V
+𝕊𝕆𝕌ℝℂ𝔼 𝕙𝕒𝕔𝕜𝕖𝕣
+❖╎𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @Source_haker
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 ''')
 @hacker.on(events.NewMessage(outgoing=True, pattern=".حلويات"))
